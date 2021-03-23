@@ -3,20 +3,19 @@ import incomeImg from '../../assets/income.svg'
 import outcomeImg from "../../assets/outcome.svg";
 import totalImg from "../../assets/total.svg";
 
-
 export function Summary() {
   return (
     <Container>
       <div>
         <header>
-          Entradas
+          Incomes
           <img src={incomeImg} alt="entradas" />
         </header>
         <strong>R$ 17.400,00</strong>
       </div>
       <div>
         <header>
-          Saídas
+          Outcomes
           <img src={outcomeImg} alt="saidas" />
         </header>
         <strong>-R$ 17.400,00</strong>
